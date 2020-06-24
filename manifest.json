@@ -1,0 +1,23 @@
+{
+    "name": "AnswerSheet",
+    "version": "0.1",
+    "description": "Lists answers",
+    "background": {
+	   "scripts": ["background.js"]
+    },
+    "icons": 
+    {
+    	"16": "icon.png",
+    	"48": "icon.png",
+    	"128": "icon.png"
+    },
+    "browser_action":
+    {
+	    "default_icon": "icon.png"
+    },
+    "permissions":
+    [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}
