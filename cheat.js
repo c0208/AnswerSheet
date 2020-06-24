@@ -10,9 +10,9 @@ $(".answer").each(function(i, obj) {
 });
 
 if (answers.length != 0) {
-	for (var i = 0; i < answers.length ; i++) {
-		console.log(i + 1 + " " + answers[i]);
+    for (var i = 0; i < answers.length ; i++) {
+        console.log(i + 1 + " " + answers[i]);
 	}
 } else {
-	console.log("ERROR, nothing found here!");
+    console.log("ERROR, nothing found here!");
 }
